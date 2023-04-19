@@ -27,10 +27,6 @@ The program "bibtex_authoryear.pl" converts a BibTex file to use authoryear as t
 
 If you encounter any issues while using the program, please refer to the `FAQ` file in this repo. If your issue is not addressed in the FAQ, please open an issue on GitHub.
 
-## License
-
-This program is released under the MIT license. See the `LICENSE` file in this repo for details.
-
 
 
 
