@@ -20,7 +20,7 @@ To use the program, run the following command:
 
 This will convert the BibTeX file `input.bib` to use authoryear citation keys, and save the result to `output.bib`.
 
-The program "bibtex_authoryear.pl" converts a BibTex file to use autheryear as the citation key. The program parses the bibtex entries and use first author's last name + year as the citation key.  If there are multiple author+year combinations, surffix "b", "c", etc. will be added to make the key unique.
+The program "bibtex_authoryear.pl" converts a BibTex file to use authoryear as the citation key. The program parses the bibtex entries and use first author's last name + year as the citation key.  If there are multiple author+year combinations, surffix "b", "c", etc. will be added to make the key unique.
 
 
 ## Troubleshooting
