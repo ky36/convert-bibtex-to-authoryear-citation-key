@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 #
-# convert endnote output to autheryear citation key
+# convert endnote output to authoryear citation key
 #
 
 use strict;
