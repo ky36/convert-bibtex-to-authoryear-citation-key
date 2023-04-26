@@ -13,12 +13,12 @@ my %h = ();
 my $header;
 my @one = ();
 
-my ($author, $year, $key,);
+my ($author, $year, );
 while (my $li = <>) {
     chomp($li);
 
     if ($li =~ /^\s*@/) { ## flush previous record
-	&printout_this($key);
+	&printout_this();
 	$header = $li;
 	@one = ();
 	next;
@@ -34,7 +34,7 @@ while (my $li = <>) {
     }
 }
 
-&printout_this($key);
+&printout_this();
 
 	  
 sub printout_this {
@@ -46,7 +46,7 @@ sub printout_this {
 	$author =~ s/[{}]//g;
 	$author =~ s/\\.//g;
 	
-	$key = $author . $year;
+	my $key = $author . $year;
 
 	$key =~ s/\s//g;
 
