@@ -18,7 +18,7 @@ while (my $li = <>) {
     chomp($li);
 
     if ($li =~ /^\s*@/) { ## flush previous record
-	&printout_this($key) if (@one);
+	&printout_this($key);
 	$header = $li;
 	@one = ();
 	next;
@@ -34,7 +34,7 @@ while (my $li = <>) {
     }
 }
 
-&printout_this($key) if (@one);
+&printout_this($key);
 
 	  
 sub printout_this {
